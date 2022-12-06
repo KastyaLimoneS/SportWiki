@@ -4,6 +4,6 @@ public class WikiParser
 {
     public void DoSmth()
     {
-        WikiPageFactory.GetPageFrom("dm");
+        Console.WriteLine(WikiPageFactory.GetPageFrom("dm").Id);
     }
 }
