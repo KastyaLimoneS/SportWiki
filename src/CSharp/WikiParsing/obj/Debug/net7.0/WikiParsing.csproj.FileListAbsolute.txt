@@ -1,0 +1,12 @@
+G:\SportWiki\src\CSharp\WikiParsing\bin\Debug\net7.0\WikiParsing.deps.json
+G:\SportWiki\src\CSharp\WikiParsing\bin\Debug\net7.0\WikiParsing.dll
+G:\SportWiki\src\CSharp\WikiParsing\bin\Debug\net7.0\WikiParsing.pdb
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.csproj.AssemblyReference.cache
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.GeneratedMSBuildEditorConfig.editorconfig
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.AssemblyInfoInputs.cache
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.AssemblyInfo.cs
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.csproj.CoreCompileInputs.cache
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.dll
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\refint\WikiParsing.dll
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\WikiParsing.pdb
+G:\SportWiki\src\CSharp\WikiParsing\obj\Debug\net7.0\ref\WikiParsing.dll
