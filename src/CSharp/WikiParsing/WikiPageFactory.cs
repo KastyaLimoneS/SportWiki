@@ -9,7 +9,7 @@ internal static class WikiPageFactory
     private static readonly String ID_STRING_KEY = "\"wgWikibaseItemId\":";
     public static WikiPage GetPageFrom(String url)
     {
-        var objStream = WebRequest.Create("https://en.wikipedia.org/wiki/CD_Pozoblanco").GetResponse().GetResponseStream();
+        var objStream = WebRequest.Create(url).GetResponse().GetResponseStream();
         StreamReader objReader = new StreamReader(objStream);
 
         string sLine = "";
