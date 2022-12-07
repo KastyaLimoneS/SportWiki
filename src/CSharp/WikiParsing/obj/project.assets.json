@@ -3066,11 +3066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\SportWiki\\src\\CSharp\\WikiParsing\\WikiParsing.csproj",
+      "projectUniqueName": "G:\\SportWiki\\src\\CSharp\\WikiParsing\\WikiParsing.csproj",
       "projectName": "WikiParsing",
-      "projectPath": "g:\\SportWiki\\src\\CSharp\\WikiParsing\\WikiParsing.csproj",
+      "projectPath": "G:\\SportWiki\\src\\CSharp\\WikiParsing\\WikiParsing.csproj",
       "packagesPath": "C:\\Users\\KastyaLimoness\\.nuget\\packages\\",
-      "outputPath": "g:\\SportWiki\\src\\CSharp\\WikiParsing\\obj\\",
+      "outputPath": "G:\\SportWiki\\src\\CSharp\\WikiParsing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

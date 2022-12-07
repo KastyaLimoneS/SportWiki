@@ -4,9 +4,9 @@ namespace WikiParsing;
 
 public class WikiPage
 {
-    public readonly String Id;
-    public WikiPage(String id)
+    public readonly String Title;
+    public WikiPage(String title)
     {
-        Id = id;
+        Title = title;
     }
 }
