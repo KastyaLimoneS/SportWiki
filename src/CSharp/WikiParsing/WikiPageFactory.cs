@@ -1,21 +1,38 @@
 using System;
 using System.Net;
-using System.IO;
-using System.Collections.Generic;
+using System.Linq;
 using System.Collections;
 using System.Text;
+using System.Text.Json;
+using Newtonsoft.Json.Linq;
 
 namespace WikiParsing;
 
 internal static class WikiPageFactory
 {
-    private static readonly String REQUEST_FORM = "https://ru.wikipedia.org/w/api.php?action=query&format=json&prop=info&titles={0}&generator=links&formatversion=2&inprop=url%7Csubjectid&gplnamespace=0&gpllimit=10";
+    private static readonly String REQUEST_INTERNAL_PAGES = "https://ru.wikipedia.org/w/api.php?action=query&format=json&prop=info&titles={0}&generator=links&formatversion=2&inprop=url%7Csubjectid&gplnamespace=0&gpllimit=500";
+    private static readonly String REQUEST_PAGE_TEXT = "https://ru.wikipedia.org/w/api.php?action=parse&format=json&page={0}&prop=text&formatversion=2";
     public static void PrintInternalPages(String title)
     {
-        var objStream = WebRequest.Create(String.Format(REQUEST_FORM, title)).GetResponse().GetResponseStream();
-        var objReader = new LinqStreamReader(objStream);
-        Console.WriteLine(objReader.Aggregate((a, b) => a+'\n'+b));
+        Console.WriteLine(title);
+        var doc = GetResponseJson(REQUEST_INTERNAL_PAGES, title);
+        var pages = doc.RootElement.GetProperty("query").GetProperty("pages").EnumerateArray();
+        foreach (var el in pages)
+            Console.WriteLine(String.Format("-{0}", el.GetProperty("title").GetString()));
         
+    }
+
+    public static String GetUnparsedPageText(String title)
+    {
+        var doc = GetResponseJson(REQUEST_PAGE_TEXT, title);
+        return doc.RootElement.GetProperty("parse").GetProperty("text").GetString();
+    }
+
+    public static JsonDocument GetResponseJson(String title, String requestTemplate)
+    {
+        var objStream = WebRequest.Create(String.Format(requestTemplate, title)).GetResponse().GetResponseStream();
+        var objReader = new LinqStreamReader(objStream);
+        return JsonDocument.Parse(objReader.Aggregate((a, b) => a+'\n'+b));
     }
 }
 

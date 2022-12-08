@@ -17,3 +17,4 @@ g:\SportWiki\src\CSharp\TestClient\obj\Debug\net7.0\TestClient.pdb
 g:\SportWiki\src\CSharp\TestClient\obj\Debug\net7.0\TestClient.genruntimeconfig.cache
 g:\SportWiki\src\CSharp\TestClient\obj\Debug\net7.0\ref\TestClient.dll
 g:\SportWiki\src\CSharp\TestClient\bin\Debug\net7.0\AngleSharp.dll
+g:\SportWiki\src\CSharp\TestClient\bin\Debug\net7.0\Newtonsoft.Json.dll

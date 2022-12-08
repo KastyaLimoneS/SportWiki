@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3P8bkSsV19VMvVW2g89eIPrrbb0VHx5uj80477CW3nL63h9rWer4G1mJpttNb1YjwZ47SipPY9Q6z3Klvw2VuA==",
+  "dgSpecHash": "4isSJUroUou/6lkH7wynbJjZ20mbnH1x8D1IuxuiGJXd5pcqYSOdlGiTmIuEtfJYI2A7gyzeCLDEeRJdDGI4QA==",
   "success": true,
   "projectFilePath": "g:\\SportWiki\\src\\CSharp\\TestClient\\TestClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\KastyaLimoness\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\KastyaLimoness\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

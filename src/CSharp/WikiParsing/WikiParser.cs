@@ -4,6 +4,6 @@ public class WikiParser
 {
     public void DoSmth()
     {
-        WikiPageFactory.PrintInternalPages("Пиво");
+        WikiPageFactory.PrintInternalPages("Хуй");
     }
 }
